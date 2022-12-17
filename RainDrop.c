@@ -1,0 +1,2 @@
+#include<stdio.h>
+int main(){ int n,a,b,c; scanf("%d",&n); a=n%3; b=n%5; c=n%7; if(a==0&&b!=0&&c!=0) { printf("Pling"); } else if(a!=0&&b==0&&c!=0) { printf("Plang"); } else if(a!=0&&b!=0&&c==0) { printf("Plong"); } else if(a==0&&b==0&&c!=0) { printf("PlingPlang"); } else if(a==0&&b!=0&&c==0) { printf("PlingPlong"); } else if(a!=0&&b==0&&c==0) { printf("PlangPlong"); } else if(a==0&&b==0&&c==0) { printf("PlingPlangPlong"); } else if(a!=0&&b!=0&&c!=0) { printf("%d",n); }}
