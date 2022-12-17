@@ -1,0 +1,2 @@
+#include<stdio.h>
+int main(){ int a,b,c,d; scanf("%d",&a); b=a%400; c=a%100; d=a%4; if(b==0) { printf("True"); } else if(b!=0&&c==0) { printf("False"); } else if(b!=0&&c!=0&&d==0) { printf("True"); } else if(b!=0&&c!=0&&d!=0) { printf("False"); }}
