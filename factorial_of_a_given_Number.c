@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int i,n,fac=1;
+    int i,n;
     scanf("%d",&n);
-
+int fac=1;
     for(i=1;i<=n;i++)
     {
         fac=fac*i;
