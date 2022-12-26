@@ -2,20 +2,18 @@
 int main()
 {
     int a,b; 
-    scanf("%d",&a); 
-    b=a%3; 
-    if(b==1) 
-    {
+    scanf("%d",&a);
+    b=a%3;
+    if(b==1)
+    { 
         printf("HUGE");
         }
-        else if(b==2)
+        else if(b==2) 
         {
-            printf("SMALL"); 
-            
-        } 
-        else if(b==0) 
-        {
-            printf("NORMAL");
+            printf("SMALL");
             }
-    
+            else if(b==0)
+            {
+                printf("NORMAL");
+                }
 }
