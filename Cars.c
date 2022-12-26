@@ -2,16 +2,15 @@
 int main()
 {
     int a,b; 
-    scanf("%d",&a); 
+    scanf("%d",&a);
     if(a%4==0) 
     {
-        b=a/4; 
-        
-    }
-    else 
-    {
-        b=(a/4)+1;
+        b=a/4;
+        }
+        else 
+        {
+            b=(a/4)+1; 
+            
         }
         printf("%d",b);
-    
 }
