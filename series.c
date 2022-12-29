@@ -15,14 +15,14 @@ int main()
             printf("%d ",a); 
             k1++;
             }
-            else{
+            else
+            {
                 b=pow(3,k2); 
                 printf("%d ",b); 
                 k2++; 
                 
             }
-    }
-            
+            }
 }
             
             
