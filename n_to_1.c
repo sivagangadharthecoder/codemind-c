@@ -1,9 +1,11 @@
 #include<stdio.h>
 int main()
 {
-    int n,i; 
+    int n;
     scanf("%d",&n);
-    for(i=n;i>=1;i--) 
+    int i;
+for(i=n;i>=1;i--)
+
     printf("%d ",i);
     
 }
