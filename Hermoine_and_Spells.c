@@ -1,11 +1,12 @@
 #include<stdio.h>
 int main()
 {
-    int a,b,c,sum; 
-    scanf("%d%d%d",&a,&b,&c);
-    if(a>b&&c>b) 
-    {
-        sum=a+c; 
-        
-    }
-    else if(b>a&&c>a) { sum=b+c; } else if(a>c&&b>c) { sum=a+b; } printf("%d",sum); }
+    int u,v,w;
+    scanf("%d%d%d",&u,&v,&w);
+    int sum=0;
+    if(v>u && w>u) sum=v+w;
+    else if(u>v && w>v) sum=u+w;
+    else if(u>w && v>w) sum=u+v;
+    printf("%d",sum);
+    
+}
