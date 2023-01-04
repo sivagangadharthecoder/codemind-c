@@ -1,4 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int n,k,m,a; scanf("%d%d%d",&n,&k,&m); if(n%(k*m)==0) { a=n/(k*m); } else { a=(n/(k*m))+1; } printf("%d",a); }
+	int n,k,m;
+	scanf("%d%d%d",&n,&k,&m);
+	int b;
+	if(n%(k*m)==0) b=n/(k*m);
+	else b=(n/(k*m))+1;
+	printf("%d",b);
+}
