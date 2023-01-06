@@ -4,8 +4,6 @@ int main()
     int n;
     scanf("%d",&n);
     int rem,rev=0;
-    int o;
-    o=n;
     while(n!=0)
     {
         rem=n%10;
@@ -13,6 +11,4 @@ int main()
         n=n/10;
     }
     printf("%d",rev);
-
-    
 }
