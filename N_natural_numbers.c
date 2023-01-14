@@ -1,10 +1,3 @@
 #include<stdio.h>
 int main()
-{
-    int i,n;
-    scanf("%d",&n);
-    for(i=1;i<=n;i++)
-    {
-        printf("%d ",i);
-    }
-}
+{ int a,i; scanf("%d",&a); for(i=1;i<=a;i++) { printf("%d ",i); }}
