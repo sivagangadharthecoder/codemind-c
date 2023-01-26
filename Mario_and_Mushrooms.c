@@ -1,14 +1,2 @@
 #include<stdio.h>
-int main()
-{
-    int n;
-    scanf("%d",&n);
-    int i;
-    i=n%3;
-    if(i==0) printf("NORMAL");
-   
-    else if(i==1) printf("HUGE");
-     else if(i==2) printf("SMALL");
-    
-    
-}
+int main(){ int a,b; scanf("%d",&a); b=a%3; if(b==1) { printf("HUGE"); } else if(b==2) { printf("SMALL"); } else if(b==0) { printf("NORMAL"); } }
