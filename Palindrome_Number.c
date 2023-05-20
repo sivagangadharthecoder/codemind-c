@@ -3,18 +3,26 @@ int main()
 {
     int t;
     scanf("%d",&t);
-    while(t--) 
+    while(t--)
     {
-        int n,a,rem,rev=0; 
-        scanf("%d",&n);
-        a=n;
-        while(a>0) 
+        int a,rev=0,r,temp;
+        scanf("%d",&a);
+        temp=a;
+        while(a!=0)
         {
-            rem=a%10;
-            rev=rev * 10 +rem;
-            a=a/10; 
-            
+            r=a%10;
+            rev=rev*10+r;
+            a=a/10;
         }
-        if(rev==n) printf("True
-"); else printf("False
-"); }}
+        if(temp==rev)
+        {
+            printf("True
+");
+        }
+        else
+        {
+            printf("False
+");
+        }
+    }
+}
