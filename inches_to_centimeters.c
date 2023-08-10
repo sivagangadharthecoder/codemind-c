@@ -1,2 +1,11 @@
 #include<stdio.h>
-int main(){ int in; scanf("%d",&in); float cm; cm= in*2.54; printf("%0.2f",cm);}
+int main()
+{
+    float inch;
+    scanf("%f",&inch);
+    
+    float cm = 2.54 * inch;
+    printf("%0.2f",cm);
+    
+    return 0;
+}
