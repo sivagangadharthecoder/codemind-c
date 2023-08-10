@@ -1,2 +1,11 @@
 #include<stdio.h>
-int main(){ int s,t,b; scanf("%d%d%d",&s,&t,&b); int cap; cap=s*t*b; printf("%d KB",cap);}
+int main()
+{
+    int t,s,b;
+    scanf("%d%d%d",&t,&s,&b);
+    
+    int cpt = t*s*b;
+    printf("%d KB",cpt);
+    
+    return 0;
+}
